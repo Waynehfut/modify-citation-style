@@ -1,5 +1,5 @@
 # Zotero_GB_7441_Style
-This is Zotero Style for based on GB/T 7713.1-2006, created by [@Sherleen93](https://github.com/Sherleen93)
+This is GB/T 7713.1-2006 Style file for Zotero, created by [@Sherleen93](https://github.com/Sherleen93)
 
 这个是[@Sherleen93](https://github.com/Sherleen93)整理的GB/T 7713.1-2006参考文献风格文件，适用于Zotero。
 
