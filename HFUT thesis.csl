@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only" default-locale="zh-CN">
   <info>
-    <title>HFUT thesis</title>
-    <id>http://www.zotero.org/styles/chinese-gb7714-2005-numeric</id>
+    <title>HFUT Thesis</title>
+    <id>http://www.zotero.org/styles/HFUT Thesis</id>
     <link href="http://www.zotero.org/styles/chinese-gb7714-2005-numeric" rel="self"/>
     <link href="http://gradschool.ustc.edu.cn/ylb/material/xw/wdxz/19.pdf" rel="documentation"/>
     <author>
-      <name>Hao Wang</name>
+      <name>haowang</name>
       <email>waynehfut@gmail.com</email>
     </author>
     <category citation-format="numeric"/>
@@ -67,10 +67,10 @@
         <text macro="title" suffix="[M]. "/>
       </else-if>
       <else-if type="paper-conference">
-        <text macro="title" suffix="[C]//"/>
+        <text macro="title" suffix="[C]. "/>
       </else-if>
       <else-if type="chapter paper-conference" match="any">
-        <text macro="title" suffix="[G]//"/>
+        <text macro="title" suffix="[G]. "/>
       </else-if>
       <else-if type="webpage">
         <text macro="title" suffix="[EB/OL]. "/>
@@ -122,19 +122,11 @@
       <text variable="publisher"/>
       <choose>
         <if type="webpage" variable="container-title" match="all">
-          <date variable="issued" suffix=". ">
-            <date-part name="year"/>
-            <date-part name="month" form="numeric-leading-zeros" prefix="-"/>
-            <date-part name="day" form="numeric-leading-zeros" prefix="-"/>
-          </date>
+          
         </if>
         <else-if type="webpage"/>
         <else-if type="patent">
-          <date variable="issued">
-            <date-part name="year"/>
-            <date-part name="month" form="numeric-leading-zeros" prefix="-"/>
-            <date-part name="day" form="numeric-leading-zeros" prefix="-"/>
-          </date>
+          
         </else-if>
         <else-if variable="publisher">
           <date variable="issued">
@@ -158,12 +150,7 @@
   <macro name="referenceDate">
     <choose>
       <if type="webpage">
-        <date variable="issued" prefix="(" suffix=")">
-          <date-part name="year"/>
-          <date-part name="month" form="numeric-leading-zeros" prefix="-"/>
-          <date-part name="day" form="numeric-leading-zeros" prefix="-"/>
-        </date>
-        <date variable="accessed" prefix="[" suffix="]">
+        <date variable="issued" prefix="[" suffix="]">
           <date-part name="year"/>
           <date-part name="month" form="numeric-leading-zeros" prefix="-"/>
           <date-part name="day" form="numeric-leading-zeros" prefix="-"/>
