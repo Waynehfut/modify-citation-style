@@ -6,14 +6,14 @@
     <link href="http://www.zotero.org/styles/chinese-gb7714-2005-numeric" rel="self"/>
     <link href="http://gradschool.ustc.edu.cn/ylb/material/xw/wdxz/19.pdf" rel="documentation"/>
     <author>
-      <name>haowang</name>
+      <name>Hao Wang</name>
       <email>waynehfut@gmail.com</email>
     </author>
     <category citation-format="numeric"/>
     <category field="engineering"/>
     <category field="generic-base"/>
     <category field="science"/>
-    <summary>This style just partly implemented what the HFUT thesis requires.</summary>
+    <summary>This style just partly implemented what the HFUT thesis requires. For most recent update, please check the https://github.com/Waynehfut/HFUT-thesis-citation-style</summary>
     <updated>2021-03-14T03:41:57+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
