@@ -29,3 +29,6 @@ Also, provide the HFUT thesis citation style file and "等" to et. al vb script
 3. 使用 `HFUT thesis` 格式文件来更新文章
 4. 新建一个宏文件，内容参考 `dengtoetal.vbs`
 5. 使用新建的宏更新参考文献列表
+
+## Also NSFC csl file
+NSFCselfUse.csl
